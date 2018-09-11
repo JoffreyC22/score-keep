@@ -14,6 +14,7 @@ Meteor.startup(() => {
             }
         }).fetch();
         let title = 'Score Keep';
-        ReactDOM.render(<App title={title} players={players}/>, document.getElementById('app'));
+        let subtitle = 'Created by Joffrey Capitaine';
+        ReactDOM.render(<App title={title} subtitle={subtitle} players={players}/>, document.getElementById('app'));
     });
 });
