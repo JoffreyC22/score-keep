@@ -1,0 +1,29 @@
+@import './components/title-bar';
+@import './components/item';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 1.5rem;
+}
