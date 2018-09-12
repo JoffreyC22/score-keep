@@ -1,3 +1,11 @@
+// Variables
+$green: #e4ede0;
+$green-alt: darken($green, 15%);
+$red: #eddfdf;
+$red-alt: darken($red, 15%);
+$blue: #dfe7ed;
+$blue-alt:darken($blue, 15%);
+
 @import './components/title-bar';
 @import './components/item';
 @import './components/button';
